@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "server": "cd src && node server",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha src/test/*.js",
     "test-server": "cd src/test && node testes-server"
   },
   "author": "Kiev Gama",
